@@ -84,10 +84,48 @@
                                 <option value="moto">Moto</option>
                             </select>
                         </div>
+                        <button class="btn btn-success w-100" type="submit" 
+                        name="adicionar">
+                            Adiicionar veículo
+                        </button>
                     </form>
                  </div>
             </div>
         </div>
+
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h4 class="mb-0">
+                        Calcular a previsão de aluguel
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <form action="post" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="tipo" class="input-label">
+                                Tipo de veículo:
+                            </label>
+                            <select  class="form-select" name="tipo" id="tipo" 
+                            required>
+                                <option value="carro">Carro</option>
+                                <option value="moto">Moto</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="quantidade" class="form-label">
+                                Quantidade de dias
+                            </label>
+                            <input type="number" name="dias_calculo" 
+                            class="form-control"
+                            value="1" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
      </div>
 
     </div>
