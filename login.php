@@ -32,9 +32,7 @@
             cursor: pointer;
         }
     </style>
-    <style>
-    </style>
-    
+
 </head>
 <body class="bg-light">
     <div class="login-container">
