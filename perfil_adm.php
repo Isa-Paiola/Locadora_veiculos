@@ -163,7 +163,41 @@
                                     </td>
                                     <td>
                                         <div class="action-wrapper">
-                                            
+                                            <form action="post" 
+                                            class="btn-group-actions">
+
+
+                                                <!-- botao Deletar (sempre 
+                                                disponivel para'Admin') -->
+                                                <button class="btn btn-danger 
+                                                btn-sm delete-btn" type="submit" 
+                                                name="deletar">
+                                                    Deletar
+                                                </button>
+
+                                                <!-- botões condicionais -->
+                                                 <div class="rent-gtoup">
+                                                    <!-- Veículodisponível -->
+                                                     <button class="btn btn-warning
+                                                     btn-sm" type="submit" 
+                                                     name="devolver">
+                                                        Devolver
+                                                     </button>
+
+                                                     <!-- Veículo disponível -->
+                                                      <input type="number" 
+                                                      name="dias" 
+                                                      class="form-control"
+                                                      value="1" min="1" required>
+
+                                                      <!-- botão para alugar -->
+                                                       <button class="btn 
+                                                       btn-primary" name="alugar"
+                                                       type="submit">
+                                                            Alugar
+                                                       </button>
+                                                 </div>
+                                            </form>
                                         </div>
                                     </td>
                                 </tr>
