@@ -15,6 +15,20 @@
     order: 1;
 }
 
+.rent-group{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    order: 2;
+}
+
+days-input{
+    width: 60px !important;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+}
+
+
 @media (max-width: 768px){
     .action-wrapper{
         flex-direction: column;
